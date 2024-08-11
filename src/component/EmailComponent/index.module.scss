@@ -1,0 +1,43 @@
+.emailContainer {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #f8f9f9;
+    padding: 24px;
+    border-radius: 8px;
+    min-width: 300px;
+    width: 60%;
+    max-width: 100%; /* Prevents overflow */
+    transition: width 0.3s ease-in-out;
+    opacity: 0.9;
+    margin: 24px auto;
+    color: #333333;
+    box-sizing: border-box; 
+  
+    pre {
+      background-color: #1B4F72 ;
+      padding: 10px;
+      border-radius: 5px;
+      margin: 16px 0;
+      word-wrap: break-word; 
+      overflow-wrap: break-word; 
+      white-space: pre-wrap; 
+      box-sizing: border-box; 
+      color: white;
+      font-size: 16px;
+    }
+  
+    .footer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap; 
+    }
+  
+    @media (max-width: 1080px) {
+      width: 80%;
+    }
+  
+    @media (max-width: 768px) {
+      width: 90%;
+    }
+  }
+  

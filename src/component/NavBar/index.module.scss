@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    padding: 0 1rem;
+    background-color: #0E3D61;
+    position: sticky;
+    justify-content: space-between;
+
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        font-family: "Playwrite HR", cursive;
+
+        .logo{
+            width: 32px;
+
+            
+        }
+
+        @media (max-width:480px) {
+            font-size: 14px;
+        }
+    }
+
+    .menuList{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        width: 150px;
+        font-size: 14px;
+        font-weight: 600;
+
+    }
+
+    li{
+        list-style: none;
+        background-color: #273746;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+
+    
+}
