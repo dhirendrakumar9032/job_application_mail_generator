@@ -12,11 +12,11 @@ pnpm-debug.log*
 .env.production.local
 
 # Vite
-dist/
-.vite/
-.cache/
-.vscode/
-.idea/
+/dist
+/.vite
+/.cache
+/.vscode
+/.idea
 
 # Logs
 logs
