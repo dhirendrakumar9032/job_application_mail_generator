@@ -3,8 +3,6 @@ import { Button, message } from 'antd';
 import { useStore } from '@/store';
 import styles from './index.module.scss'; 
 
-
-
 const EmailComponent: React.FC= () => {
     const {formData,setFormData,setIsMailGenerated,sentToHR} = useStore()
     const { name, position, company, url} = formData;

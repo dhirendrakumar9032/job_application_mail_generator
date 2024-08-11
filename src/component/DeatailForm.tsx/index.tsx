@@ -10,7 +10,6 @@ const DetailForm = () => {
   const {setFormData, setIsMailGenerated}=useStore();
 
   const onFinish = (values:FormData) => {
-    console.log('Received values of form:', values);
     setFormData(values);
     setIsMailGenerated(true)
   };
