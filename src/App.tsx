@@ -1,9 +1,9 @@
 import React from 'react';
-import styles from './App.module.scss';
+import { useStore } from './store';
 import Navbar from './component/NavBar';
 import DetailForm from './component/DeatailForm.tsx';
 import EmailComponent from './component/EmailComponent';
-import { useStore } from './store';
+import styles from './App.module.scss';
 
 function App() {
   const { isMailGenerated } = useStore();

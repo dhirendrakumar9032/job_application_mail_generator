@@ -28,8 +28,16 @@
     .footer {
       width: 100%;
       display: flex;
-      justify-content: space-between;
+      gap: 24px;
       flex-wrap: wrap; 
+    }
+
+    button{
+      height: 40px;
+      background-color: #E74C3C ;
+      font-size: 12px;
+      font-weight: 600;
+
     }
   
     @media (max-width: 1080px) {

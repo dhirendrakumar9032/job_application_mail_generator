@@ -1,14 +1,13 @@
-import { useStore,FormData } from '@/store';
+import React from 'react'
 import { Button, Flex, Form, Input, Typography } from 'antd'
 import { useForm } from 'antd/es/form/Form'
-import React from 'react'
+import { useStore,FormData } from '@/store';
 import styles from './index.module.scss'
 
-const {Title} =Typography;
 
 const DetailForm = () => {
   const [form]=useForm();
-  const {formData,setFormData, setIsMailGenerated}=useStore();
+  const {setFormData, setIsMailGenerated}=useStore();
 
   const onFinish = (values:FormData) => {
     console.log('Received values of form:', values);
@@ -18,7 +17,7 @@ const DetailForm = () => {
 
   return (
    <div className={styles.formContainer}>
-    <h1 >Please Fill the Detail</h1>
+    <h1 >Please Fill the Details</h1>
      <Form form={form} layout='vertical' className={styles.detailForm} onFinish={onFinish}>
       <Form.Item label='Name' name='name' rules={[{
         required: true,
@@ -50,7 +49,7 @@ const DetailForm = () => {
         <Input/>
       </Form.Item>
       <Form.Item >
-        <Button type='primary' htmlType='submit'>Generate Mail</Button>
+        <Button type='primary' htmlType='submit'>Generate Email</Button>
       </Form.Item>
     </Form>
    </div>

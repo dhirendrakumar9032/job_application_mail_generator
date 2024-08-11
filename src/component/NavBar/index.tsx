@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './index.module.scss'
-import logo from '../../../assets/logo1.png'
 import { Switch } from 'antd'
 import { useStore } from '@/store'
+import logo from '../../../assets/logo1.png'
+import styles from './index.module.scss'
 
 const Navbar = () => {
   const {sentToHR,setSentToHR}=useStore()
