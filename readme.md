@@ -12,10 +12,10 @@ The primary purpose of this application is to address the common problem of havi
 ## Screenshots
 
 ### Home Screen
-![Home Screen](https://github.com/user-attachments/assets/aa9f70aa-8dab-41fc-a53d-2419649a2ef6)
+![Home Screen](https://github.com/user-attachments/assets/0ad388b1-75bb-4f0c-98a2-043507cebe47)
 
 ### Generated Email
-![Generated Email](https://github.com/user-attachments/assets/e67eb93a-9925-4753-87da-f931bd4ee68d)
+![Generated Email](https://github.com/user-attachments/assets/d1a06ac3-7e75-470b-a524-6140ffb809d0)
 
 ## Features
 
