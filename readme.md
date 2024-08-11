@@ -9,6 +9,14 @@ The **Job Application Email Generator** is a web application designed to simplif
 
 The primary purpose of this application is to address the common problem of having to write job application emails from scratch each time. Whether you need to ask an HR representative for a referral or reach out to an employee, this app allows you to generate a customized email that can be copied and pasted for quick sending.
 
+## Screenshots
+
+### Home Screen
+![Home Screen](https://github.com/user-attachments/assets/aa9f70aa-8dab-41fc-a53d-2419649a2ef6)
+
+### Generated Email
+![Generated Email](https://github.com/user-attachments/assets/e67eb93a-9925-4753-87da-f931bd4ee68d)
+
 ## Features
 
 - **Customizable Fields**: Input fields for your name, job role, company name, and job post.
@@ -95,13 +103,7 @@ The built files will be available in the `dist` directory.
 3. Click the "Generate Mail" button.
 4. Copy the generated email and paste it into your preferred email client.
 
-## Screenshots
 
-### Home Screen
-![Home Screen](./path-to-your-screenshot-file)
-
-### Generated Email
-![Generated Email](./path-to-your-screenshot-file)
 
 ## License
 
