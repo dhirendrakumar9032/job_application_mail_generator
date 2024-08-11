@@ -42,59 +42,21 @@ The primary purpose of this application is to address the common problem of havi
 
 ### Installation
 
-1. Clone the repository:
+   Clone the repository:
 
-   \`\`\`bash
-   git clone <repository-url>
-   \`\`\`
+   ```
+   git clone https://github.com/dhirendrakumar9032/job_application_mail_generator.git
 
-2. Navigate to the project directory:
-
-   \`\`\`bash
    cd job-application-email-generator
-   \`\`\`
 
-3. Install the dependencies:
+   npm install or  yarn install
 
-   \`\`\`bash
-   npm install
-   \`\`\`
-
-   or
-
-   \`\`\`bash
-   yarn install
-   \`\`\`
-
-4. Start the development server:
-
-   \`\`\`bash
-   npm run dev
-   \`\`\`
-
-   or
-
-   \`\`\`bash
-   yarn dev
-   \`\`\`
+   npm run start or yarn start
+```
+   
 
    The application will be available at `http://localhost:5173`.
 
-### Building for Production
-
-To build the project for production, run:
-
-\`\`\`bash
-npm run build
-\`\`\`
-
-or
-
-\`\`\`bash
-yarn build
-\`\`\`
-
-The built files will be available in the `dist` directory.
 
 ## Usage
 
