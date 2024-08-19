@@ -19,6 +19,7 @@ const EmailComponent: React.FC = () => {
             message.error('Failed to copy: ');
         }
     };
+    console.log('s')
 
     const handleReset = () => {
         setFormData({
