@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
 interface FormData {
+    yourName: string;
     name: string;
     position: string;
     company: string;
@@ -19,6 +20,7 @@ interface StoreState {
 
 const useStore = create<StoreState>((set) => ({
     formData: {
+        yourName:'',
         name: '',
         position: '',
         company: '',
