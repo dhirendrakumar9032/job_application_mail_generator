@@ -8,7 +8,7 @@ const EmailComponent: React.FC = () => {
     const { name, position, company, url, yourName } = formData;
     const jobId = url.split('/').splice(-1)[0];
 
-    const emailContent: string = `Hi ${name},\n\nGreat to connect with you!\n\nI’m a Frontend Developer with 3+ years of experience in building scalable projects, and I’m currently exploring a new opportunity. I noticed ${company} is hiring for a ${position} position. \n\nWould you be open to referring me? It would be a great help!\n\nJob Post: ${url} \n\nJob Id: ${jobId}`;
+    const emailContent: string = `Hi ${name},\n\nGreat to connect with you!\n\nI’m a Frontend Developer with 3+ years of experience in building scalable projects, and I’m currently exploring a new opportunity. I noticed ${company} is hiring for a ${position} position. \n\nWould you be open to referring me? It would be a great help!\n\nJob Post: ${url}`;
     const emailContentToHR: string = `Hi ${name},\n\nI hope this message finds you well. \n\nMy name is ${yourName ?? 'Dhirendra Kumar'}, and I am a Front-End Developer with over 3 years of experience. Currently, I am working at Qapita Fintech India Pvt. I noticed that you recently posted a job opening for a ${position}, and I am very interested in exploring this opportunity.\n\nCould you please consider me if the position is still available.\n\nThank you for your time and consideration.\n\nBest regards,\n\nDhirendra Kumar\n\n8604390422\n\nLinkedIn:https://www.linkedin.com/in/dhirendrakumar95/`
 
     const handleCopy = async () => {
